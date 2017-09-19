@@ -1,0 +1,211 @@
+#headerAndNav {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	overflow-y: auto;
+	width: 300px;
+	border-right: 1px solid #ebeff2;
+	text-align: right;
+	-webkit-box-shadow: -1px 1px 6px rgba(0,0,0,0.35);
+	-moz-box-shadow: -1px 1px 6px rgba(0,0,0,0.35);
+	box-shadow: -1px 1px 6px rgba(0,0,0,0.35);
+}
+
+#headerContainer {
+	width: 100%;
+	text-align: center;
+}
+#headerContainer {
+	background-color: #fff;
+}
+#postsContainer {
+	margin-left: 310px;
+}
+
+#postsContainer .container,
+#footerContainer .container {
+	width: 800px;
+}
+#postsContainer .container {
+	margin-left: 12px;
+}
+/* header */
+#header {
+	color: #000000;
+	padding: 0 0 20px 0;
+	margin-top: 30px;
+}
+#header h1 {
+	margin: 0;
+	font-size: 32px;
+}
+#header h1 a {
+	color: #000000;
+	font-size: 32px;
+	text-align: center;
+	display: block;
+}
+#header h1 .article-logo {
+	height: 95px;
+	width: 90px;
+	line-height: 90px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: auto;
+	border: 1px solid #eee;
+}
+#header h1 .article-logo img {
+	width: 90px;
+	height: 100px;
+	display: inline-block;
+}
+#header h1 a div {
+	font-size: 24px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+#header #blogDesc {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ebeff2;
+	font-family: 微软雅黑;
+	color: GrayText;
+	font-size: 20px;
+}
+
+#logo {
+	word-wrap: break-word;
+	overflow: hidden;
+	cursor: hand;
+}
+
+/* posts */
+#posts {
+	width: 800px;
+}
+#posts .each-post {
+	border-bottom: 1px solid #ebeff2;
+	margin-bottom: 10px;
+	padding: 30px;
+	padding-top: 10px;
+}
+#posts .each-post .title {
+	font-size: 32px;
+	/*color: #0fb264;*/
+	font-weight: bold;
+	padding: 10px 0 15px 0;
+}
+#posts .each-post .title a {
+	font-size: 32px;
+	font-weight: bold;
+	color: #000;
+	padding: 10px 0 15px 0;
+}
+#posts .each-post .created-time {
+	border-bottom: 1px solid #eee;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	font-family: 微软雅黑;
+}
+
+#posts .each-post .title {
+	font-size: 32px;
+	/*color: #0fb264;*/
+	font-weight: bold;
+	padding: 10px 0 15px 0;
+	font-family: 微软雅黑;
+}
+
+.btn {
+	cursor: hand;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+	border: 1px solid lightgray;
+	padding: 8px 16px 8px 16px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-family: 微软雅黑;
+	color: #6f6f6f;
+}
+
+.read-b {
+	font-family: 微软雅黑;
+	font-size: 15px;
+	color: #6f6f6f;
+}
+
+.desc {
+	font-family: 微软雅黑;
+}
+
+.comment-input {
+	width: 600px;
+	height: 90px;
+	font-family: 微软雅黑;
+	font-size: 15px;
+	border-radius: 5px;
+	border: 1px solid #9f9f9f;
+	background: rgba(111, 111, 111, 0.2);
+}
+
+.sub-btn {
+	display: block;
+	cursor: hand;
+	font-family: 微软雅黑;
+	font-size: 13px;
+	width: 80px;
+	height: 30px;
+	padding: 5px;
+	margin-top: 10px;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	background: rgba(30, 144, 255, 0.6);
+	
+}
+
+.form-style {
+}
+
+.comment-div {
+	margin-left: 50px;
+}
+.comment-div .sub-btn{
+	margin-left: 520px;
+}
+
+.display-style {
+	display: inline;
+}
+
+.img-style {
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+.name-style {
+	float: left;
+	margin-left: 10px;
+	font-family: 微软雅黑;
+}
+
+.time-style {
+	float: right;
+	font-family: 微软雅黑;
+}
+
+.comment-style {
+	width: 540px;
+	word-wrap: break-word;
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 微软雅黑;
+}
+
+/*公众号名称样式*/
+.blog-bgc{
+	background: rgba(47, 144, 241, 0.5);
+}
